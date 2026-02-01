@@ -9,7 +9,7 @@ export function Booking() {
     navigate('/book');
   };
   const handleEmailClick = () => {
-    window.location.href = 'mailto:info@rootsofafricatours.com';
+    window.location.href = 'mailto:rootsofafricatours@gmail.com';
   };
   return (
     <section id="book" className="bg-cream py-10 md:py-16">
@@ -28,13 +28,9 @@ export function Booking() {
             <span className="font-sans text-terracotta text-xs uppercase tracking-widest mb-3">
               Start Your Journey
             </span>
-            <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl mb-4 md:mb-6 leading-tight">
+            <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl mb-6 md:mb-8 leading-tight">
               Ready to discover Liberia?
             </h2>
-            <p className="font-sans text-white/80 text-sm md:text-base font-light mb-6 md:mb-8 leading-relaxed">
-              Whether you want to chase waterfalls, explore history, or relax on
-              beaches, we'll craft the perfect itinerary.
-            </p>
 
             <div className="flex flex-col sm:flex-row gap-3">
               <motion.button
@@ -73,7 +69,7 @@ export function Booking() {
                 onClick={handleEmailClick}>
 
                 <Mail className="w-4 h-4" />
-                <span>info@rootsofafricatours.com</span>
+                <span>rootsofafricatours@gmail.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />

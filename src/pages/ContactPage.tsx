@@ -209,7 +209,7 @@ ${message}`;
                 </a>
 
                 <a
-                  href="mailto:info@rootsofafricatours.com"
+                  href="mailto:rootsofafricatours@gmail.com"
                   className="flex items-start gap-3 group"
                 >
                   <div className="w-10 h-10 bg-terracotta/20 rounded-full flex items-center justify-center flex-shrink-0 group-hover:bg-terracotta/30 transition-colors">
@@ -220,7 +220,7 @@ ${message}`;
                       Email
                     </p>
                     <p className="font-sans text-warm-gray text-sm group-hover:text-terracotta transition-colors">
-                      info@rootsofafricatours.com
+                      rootsofafricatours@gmail.com
                     </p>
                   </div>
                 </a>
