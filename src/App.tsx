@@ -1,0 +1,40 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Navigation } from './components/Navigation';
+import { Hero } from './components/Hero';
+import { SmallIntro } from './components/Intro';
+import { TourStories } from './components/TourStories';
+import { PullQuotes } from './components/PullQuotes';
+import { JourneyTimeline } from './components/JourneyTimeline';
+import { Photos } from './components/PhotoGallery';
+import { Booking } from './components/BookingSection';
+import { Footer } from './components/Footer';
+import { BookingPage } from './pages/BookingPage';
+import { ContactPage } from './pages/ContactPage';
+function HomePage() {
+  return (
+    <div className="bg-cream min-h-screen w-full overflow-x-hidden selection:bg-terracotta selection:text-white">
+      <Navigation />
+      <main>
+        <Hero />
+        <SmallIntro />
+        <TourStories />
+        <PullQuotes />
+        <JourneyTimeline />
+        <Photos />
+        <Booking />
+      </main>
+      <Footer />
+    </div>);
+
+}
+export function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/book" element={<BookingPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+    </BrowserRouter>);
+
+}

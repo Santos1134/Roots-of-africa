@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cream: #FAF7F2;
+  --color-warm-white: #FFFEF9;
+  --color-deep-brown: #2C1810;
+  --color-warm-gray: #5C4A3D;
+  --color-terracotta: #C4704F;
+  --color-ochre: #D4A853;
+  --color-sage: #7A8B6E;
+  --color-tan: #E8DFD4;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-cream text-deep-brown font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+  
+  .drop-cap::first-letter {
+    @apply float-left text-7xl font-serif text-terracotta pr-4 pt-2 leading-[0.8];
+  }
+}
