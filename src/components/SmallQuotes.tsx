@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import bgImage from '../Assets/11.jpeg';
 
-export function PullQuotes() {
+export function SmallQuotes() {
   return (
     <section className="py-14 md:py-20 bg-deep-brown text-cream relative overflow-hidden flex items-center justify-center min-h-[40vh] md:min-h-[50vh]">
       <div className="absolute inset-0 opacity-15">

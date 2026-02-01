@@ -3,7 +3,7 @@ import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { SmallIntro } from './components/Intro';
 import { TourStories } from './components/TourStories';
-import { PullQuotes } from './components/PullQuotes';
+import { SmallQuotes } from './components/SmallQuotes';
 import { JourneyTimeline } from './components/JourneyTimeline';
 import { Photos } from './components/PhotoGallery';
 import { Booking } from './components/BookingSection';
@@ -18,7 +18,7 @@ function HomePage() {
         <Hero />
         <SmallIntro />
         <TourStories />
-        <PullQuotes />
+        <SmallQuotes />
         <JourneyTimeline />
         <Photos />
         <Booking />
