@@ -14,7 +14,7 @@ export function TourPackages() {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          {[...tours].sort((a, b) => b.price - a.price).map((tour, index) => (
+          {[...tours].sort((a, b) => a.price - b.price).map((tour, index) => (
             <motion.div
               key={tour.id}
               initial={{ opacity: 0, y: 30 }}
@@ -59,7 +59,7 @@ export function TourPackages() {
 
                   <div className="flex items-center justify-between">
                     <span className="bg-terracotta text-white px-4 py-2 rounded-sm font-sans text-sm font-medium hover:bg-ochre transition-colors">
-                      Book
+                      Book Now
                     </span>
                   </div>
                 </div>
