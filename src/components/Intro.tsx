@@ -26,10 +26,7 @@ export function SmallIntro() {
           className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 items-start">
 
           <div className="md:col-span-5 relative">
-            <span className="block font-sans text-terracotta text-xs uppercase tracking-widest mb-3">
-              Our Philosophy
-            </span>
-            <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-deep-brown leading-tight mb-4 md:mb-6">
+                        <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-deep-brown leading-tight mb-4 md:mb-6">
               Welcome to the{' '}
               <span className="italic text-warm-gray">Grain Coast</span>,
               Africa's oldest republic.
@@ -42,10 +39,7 @@ export function SmallIntro() {
                 alt="Liberian cultural experience"
                 className="object-cover w-full h-full" />
 
-              <div className="absolute bottom-3 left-3 right-3 bg-white/90 backdrop-blur-sm p-2 md:p-3 text-xs font-sans text-deep-brown">
-                Traditional dancers in Bong County
-              </div>
-            </div>
+                          </div>
           </div>
 
           <div className="md:col-span-7 md:pl-6 space-y-4 md:space-y-5 text-sm sm:text-base md:text-lg text-warm-gray leading-relaxed font-sans font-light">
@@ -68,13 +62,7 @@ export function SmallIntro() {
               remain untouched by mass tourism.
             </p>
 
-            <div className="pt-4 md:pt-6 flex items-center gap-3">
-              <div className="h-px w-8 md:w-12 bg-deep-brown/20" />
-              <span className="font-display italic text-lg md:text-xl text-deep-brown">
-                The Roots Team
-              </span>
-            </div>
-          </div>
+                      </div>
         </motion.div>
       </div>
     </section>);

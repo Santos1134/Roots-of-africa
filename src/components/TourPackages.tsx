@@ -8,15 +8,9 @@ export function TourPackages() {
     <section id="stories" className="py-12 md:py-20 bg-warm-white">
       <div className="max-w-7xl mx-auto px-4 md:px-6">
         <div className="text-center mb-8 md:mb-14">
-          <span className="font-sans text-terracotta text-xs uppercase tracking-widest">
-            Curated Experiences
-          </span>
-          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-deep-brown mt-3">
+          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-deep-brown">
             Our Tour Packages
           </h2>
-          <p className="font-sans text-warm-gray mt-4 max-w-2xl mx-auto">
-            Discover Liberia through authentic experiences. Each tour is carefully crafted to give you a genuine connection with the land, people, and culture.
-          </p>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">

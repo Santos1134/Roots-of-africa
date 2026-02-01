@@ -39,6 +39,11 @@ export function Navigation() {
     href: '#gallery'
   },
   {
+    name: 'About',
+    href: '/about',
+    isPage: true
+  },
+  {
     name: 'Contact',
     href: '/contact',
     isPage: true

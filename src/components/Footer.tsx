@@ -122,6 +122,11 @@ export function Footer() {
           </h4>
           <ul className="space-y-2 font-sans text-warm-gray text-sm">
             <li>
+              <a href="/about" className="hover:text-terracotta transition-colors">
+                About Us
+              </a>
+            </li>
+            <li>
               <a href="/book" className="hover:text-terracotta transition-colors">
                 Book a Tour
               </a>
