@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {
   Calendar,
@@ -9,67 +10,20 @@ import {
   Minus,
   Plus } from
 'lucide-react';
-import image2 from '../Assets/2.jpeg';
-import image4 from '../Assets/4.jpeg';
-import image6 from '../Assets/6.jpeg';
-import image8 from '../Assets/8.jpeg';
-import image10 from '../Assets/10.jpeg';
-import image12 from '../Assets/12.jpeg';
-
-const tours = [
-{
-  id: 'kpatawee',
-  name: 'Kpatawee Waterfall Day Trip',
-  location: 'Bong County',
-  price: 455,
-  description: 'A full day of nature, culture, and community.',
-  image: image2
-},
-{
-  id: 'lake-piso',
-  name: 'Lake Piso & Grand Cape Mount',
-  location: 'Grand Cape Mount County',
-  price: 790,
-  description: 'Coastal beauty and cultural immersion.',
-  image: image6
-},
-{
-  id: 'monrovia',
-  name: 'Monrovia City & Culture Tour',
-  location: 'Monrovia',
-  price: 350,
-  description: 'History, culture, and urban exploration.',
-  image: image8
-},
-{
-  id: 'gbaota',
-  name: 'Gbaota Village Immersion',
-  location: 'Bong County',
-  price: 220,
-  description: 'Authentic village life and traditions.',
-  image: image4
-},
-{
-  id: 'bomi-lake',
-  name: 'Bomi Lake (Blue Lake) Tour',
-  location: 'Bomi County',
-  price: 500,
-  description: 'Visit the stunning blue lake and local villages.',
-  image: image10
-},
-{
-  id: 'libassa',
-  name: 'Libassa Marine Sanctuary',
-  location: 'Margibi County',
-  price: 300,
-  description: 'Beach, pool, and marine sanctuary experience.',
-  image: image12
-}];
+import { tours } from '../data/tours';
 
 export function BookingPage() {
+  const [searchParams] = useSearchParams();
   const [selectedTour, setSelectedTour] = useState<string>('');
   const [selectedDate, setSelectedDate] = useState<string>('');
-  const [adults, setAdults] = useState(0);
+  const [adults, setAdults] = useState(1);
+
+  useEffect(() => {
+    const tourParam = searchParams.get('tour');
+    if (tourParam && tours.find(t => t.id === tourParam)) {
+      setSelectedTour(tourParam);
+    }
+  }, [searchParams]);
   const [children, setChildren] = useState(0);
   const [infants, setInfants] = useState(0);
   const [name, setName] = useState('');

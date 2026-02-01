@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { SmallIntro } from './components/Intro';
-import { TourStories } from './components/TourStories';
+import { TourPackages } from './components/TourPackages';
 import { SmallQuotes } from './components/SmallQuotes';
 import { JourneyTimeline } from './components/JourneyTimeline';
 import { Photos } from './components/PhotoGallery';
@@ -11,6 +11,7 @@ import { Footer } from './components/Footer';
 import { BookingPage } from './pages/BookingPage';
 import { ContactPage } from './pages/ContactPage';
 import { AboutPage } from './pages/AboutPage';
+import { TourDetailPage } from './pages/TourDetailPage';
 import { FloatingWhatsApp } from './components/FloatingWhatsApp';
 function HomePage() {
   return (
@@ -19,7 +20,7 @@ function HomePage() {
       <main>
         <Hero />
         <SmallIntro />
-        <TourStories />
+        <TourPackages />
         <SmallQuotes />
         <JourneyTimeline />
         <Photos />
@@ -37,6 +38,7 @@ export function App() {
         <Route path="/book" element={<BookingPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/tour/:tourId" element={<TourDetailPage />} />
       </Routes>
       <FloatingWhatsApp />
     </BrowserRouter>);
