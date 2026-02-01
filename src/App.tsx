@@ -10,6 +10,7 @@ import { Booking } from './components/BookingSection';
 import { Footer } from './components/Footer';
 import { BookingPage } from './pages/BookingPage';
 import { ContactPage } from './pages/ContactPage';
+import { FloatingWhatsApp } from './components/FloatingWhatsApp';
 function HomePage() {
   return (
     <div className="bg-cream min-h-screen w-full overflow-x-hidden selection:bg-terracotta selection:text-white">
@@ -35,6 +36,7 @@ export function App() {
         <Route path="/book" element={<BookingPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
+      <FloatingWhatsApp />
     </BrowserRouter>);
 
 }

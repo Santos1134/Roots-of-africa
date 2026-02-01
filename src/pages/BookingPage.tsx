@@ -120,7 +120,7 @@ ${notes ? `*Special Requests:*\n${notes}` : ''}
 
 I would like to book this tour. Please confirm availability.`;
 
-    const whatsappNumber = '231555557034';
+    const whatsappNumber = '231888351388';
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     
     window.open(whatsappUrl, '_blank');

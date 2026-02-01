@@ -132,7 +132,7 @@ export function Footer() {
               </a>
             </li>
             <li>
-              <a href="https://wa.me/231555557034" target="_blank" rel="noopener noreferrer" className="hover:text-terracotta transition-colors">
+              <a href="https://wa.me/231888351388" target="_blank" rel="noopener noreferrer" className="hover:text-terracotta transition-colors">
                 WhatsApp
               </a>
             </li>
@@ -141,7 +141,7 @@ export function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto border-t border-deep-brown/10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs font-sans text-warm-gray/60">
-        <p>&copy; 2024 Roots of Africa Tours</p>
+        <p>&copy; 2026 Roots of Africa Tours</p>
       </div>
     </footer>);
 

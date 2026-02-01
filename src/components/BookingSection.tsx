@@ -59,7 +59,7 @@ export function Booking() {
                   scale: 0.98
                 }}
                 onClick={() =>
-                window.open('https://wa.me/231555557034', '_blank')
+                window.open('https://wa.me/231888351388', '_blank')
                 }
                 className="border border-white/30 text-white px-6 py-3 font-sans uppercase tracking-widest text-xs flex items-center justify-center gap-2 hover:bg-white/10 transition-colors rounded-sm">
 
@@ -77,7 +77,7 @@ export function Booking() {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                <span>+231 55 555 7034</span>
+                <span>+231 888 351 388</span>
               </div>
             </div>
           </div>

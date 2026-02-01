@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ChevronDown, ArrowRight } from 'lucide-react';
-import heroImage from '../Assets/1.jpeg';
+import heroImage from '../Assets/8.jpeg';
 
 export function Hero() {
   const ref = useRef<HTMLDivElement>(null);
@@ -18,7 +18,7 @@ export function Hero() {
     });
   };
   return (
-    <div ref={ref} className="relative h-screen w-full overflow-hidden">
+    <div ref={ref} className="relative h-[70vh] md:h-screen w-full overflow-hidden">
 
       <motion.div
         style={{

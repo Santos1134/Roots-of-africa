@@ -32,7 +32,7 @@ export function ContactPage() {
 *Message:*
 ${message}`;
 
-    const whatsappNumber = '231555557034';
+    const whatsappNumber = '231888351388';
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
     window.open(whatsappUrl, '_blank');
@@ -194,7 +194,7 @@ ${message}`;
 
               <div className="p-5 space-y-5">
                 <a
-                  href="https://wa.me/231555557034"
+                  href="https://wa.me/231888351388"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-start gap-3 group"
@@ -207,7 +207,7 @@ ${message}`;
                       WhatsApp / Phone
                     </p>
                     <p className="font-sans text-warm-gray text-sm group-hover:text-terracotta transition-colors">
-                      +231 55 555 7034
+                      +231 888 351 388
                     </p>
                   </div>
                 </a>
