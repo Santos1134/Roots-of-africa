@@ -211,7 +211,6 @@ I would like to book this tour. Please confirm availability.`;
                     onChange={(e) => setSelectedDate(e.target.value)}
                     min={minDate}
                     required
-                    placeholder="Select a date"
                     className="w-full bg-cream border border-deep-brown/20 rounded-sm p-4 pl-12 font-sans text-deep-brown focus:outline-none focus:border-terracotta transition-colors" />
 
                 </div>
@@ -317,7 +316,6 @@ I would like to book this tour. Please confirm availability.`;
                       value={name}
                       onChange={(e) => setName(e.target.value)}
                       required
-                      placeholder="John Doe"
                       className="w-full bg-cream border border-deep-brown/20 rounded-sm p-3 font-sans text-deep-brown focus:outline-none focus:border-terracotta transition-colors" />
 
                   </div>
@@ -331,7 +329,6 @@ I would like to book this tour. Please confirm availability.`;
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         required
-                        placeholder="john@example.com"
                         className="w-full bg-cream border border-deep-brown/20 rounded-sm p-3 font-sans text-deep-brown focus:outline-none focus:border-terracotta transition-colors" />
 
                     </div>
@@ -343,7 +340,6 @@ I would like to book this tour. Please confirm availability.`;
                         type="tel"
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
-                        placeholder="+1 234 567 8900"
                         className="w-full bg-cream border border-deep-brown/20 rounded-sm p-3 font-sans text-deep-brown focus:outline-none focus:border-terracotta transition-colors" />
 
                     </div>
@@ -355,7 +351,6 @@ I would like to book this tour. Please confirm availability.`;
                     <textarea
                       value={notes}
                       onChange={(e) => setNotes(e.target.value)}
-                      placeholder="Any dietary requirements, accessibility needs, or special requests..."
                       rows={3}
                       className="w-full bg-cream border border-deep-brown/20 rounded-sm p-3 font-sans text-deep-brown focus:outline-none focus:border-terracotta transition-colors resize-none" />
 
