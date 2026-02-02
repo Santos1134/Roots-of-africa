@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowLeft, MapPin, Users, Heart, Compass } from 'lucide-react';
+import { ArrowLeft, MapPin, Users, Heart, Compass, Instagram } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import aboutImage from '../Assets/5.jpeg';
 import founderImage from '../Assets/found.jpg';
@@ -116,15 +116,23 @@ export function AboutPage() {
                   alt="Windell S. King - Founder of Roots of Africa Tours"
                   className="w-full max-w-md mx-auto rounded-lg shadow-xl object-cover aspect-[4/5]"
                 />
-                <a
-                  href="https://www.instagram.com/windellking?igsh=MXZudGtjMDIzdnY1cA=="
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="absolute -bottom-4 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:-right-4 bg-terracotta text-white px-4 md:px-6 py-2 md:py-3 rounded-sm text-center md:text-left hover:bg-ochre transition-colors cursor-pointer"
-                >
-                  <p className="font-serif text-base md:text-lg">Windell S. King</p>
-                  <p className="font-sans text-xs uppercase tracking-wider opacity-80">Founder</p>
-                </a>
+                <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:-right-4 bg-terracotta text-white px-4 md:px-6 py-2 md:py-3 rounded-sm text-center md:text-left">
+                  <div className="flex items-center justify-center md:justify-start gap-2">
+                    <div>
+                      <p className="font-serif text-base md:text-lg">Windell S. King</p>
+                      <p className="font-sans text-xs uppercase tracking-wider opacity-80">Founder</p>
+                    </div>
+                    <a
+                      href="https://www.instagram.com/windellking?igsh=MXZudGtjMDIzdnY1cA=="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:opacity-80 transition-opacity"
+                      aria-label="Follow Windell on Instagram"
+                    >
+                      <Instagram className="w-5 h-5" />
+                    </a>
+                  </div>
+                </div>
               </motion.div>
 
               <motion.div
