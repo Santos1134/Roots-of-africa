@@ -116,10 +116,15 @@ export function AboutPage() {
                   alt="Windell S. King - Founder of Roots of Africa Tours"
                   className="w-full max-w-md mx-auto rounded-lg shadow-xl object-cover aspect-[4/5]"
                 />
-                <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:-right-4 bg-terracotta text-white px-4 md:px-6 py-2 md:py-3 rounded-sm text-center md:text-left">
+                <a
+                  href="https://www.instagram.com/windellking?igsh=MXZudGtjMDIzdnY1cA=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute -bottom-4 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:-right-4 bg-terracotta text-white px-4 md:px-6 py-2 md:py-3 rounded-sm text-center md:text-left hover:bg-ochre transition-colors cursor-pointer"
+                >
                   <p className="font-serif text-base md:text-lg">Windell S. King</p>
                   <p className="font-sans text-xs uppercase tracking-wider opacity-80">Founder</p>
-                </div>
+                </a>
               </motion.div>
 
               <motion.div
