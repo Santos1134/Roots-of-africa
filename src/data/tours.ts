@@ -1,10 +1,10 @@
 import kpataweeImage from '../Assets/kpatawee.jpg';
 import image4 from '../Assets/4.jpeg';
 import image6 from '../Assets/6.jpeg';
-import image10 from '../Assets/10.jpeg';
+import bomiImage from '../Assets/bomi.jpg';
 import image11 from '../Assets/11.jpeg';
-import image12 from '../Assets/12.jpeg';
-import image13 from '../Assets/13.jpeg';
+import libassaImage from '../Assets/libassa.jpg';
+import freetownImage from '../Assets/freetown.jpg';
 
 export interface Tour {
   id: string;
@@ -236,7 +236,7 @@ export const tours: Tour[] = [
     location: 'Bomi County',
     price: 500,
     shortDescription: 'Visit the stunning blue lake and local villages.',
-    image: image10,
+    image: bomiImage,
     duration: 'Full Day',
     highlights: [
       'See the stunning blue waters of Bomi Lake',
@@ -273,7 +273,7 @@ export const tours: Tour[] = [
     location: 'Margibi County',
     price: 300,
     shortDescription: 'Beach, pool, and marine sanctuary experience.',
-    image: image12,
+    image: libassaImage,
     duration: 'Full Day',
     highlights: [
       'Relax at the beach',
@@ -310,7 +310,7 @@ export const tours: Tour[] = [
     location: 'Freetown, Sierra Leone',
     price: 100,
     shortDescription: 'History, wildlife, and beaches in Sierra Leone\'s capital.',
-    image: image13,
+    image: freetownImage,
     duration: 'Full Day (9 AM - 6 PM)',
     highlights: [
       'Explore Central Freetown and the iconic Cotton Tree',
