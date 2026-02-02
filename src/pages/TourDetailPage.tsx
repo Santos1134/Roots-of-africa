@@ -90,7 +90,7 @@ export function TourDetailPage() {
                 </h1>
                 <div className="flex items-center gap-4">
                   <span className="font-serif text-2xl md:text-3xl text-white">
-                    ${tour.price}
+                    ${tour.price}<span className="text-lg font-sans">/person</span>
                   </span>
                 </div>
               </motion.div>
@@ -217,7 +217,7 @@ export function TourDetailPage() {
                 <div className="text-center mb-6">
                   <span className="font-sans text-warm-gray text-sm">From</span>
                   <div className="font-serif text-3xl text-deep-brown">
-                    ${tour.price}
+                    ${tour.price}<span className="text-base font-sans">/person</span>
                   </div>
                 </div>
 

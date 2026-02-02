@@ -32,7 +32,7 @@ export function TourPackages() {
                   />
                   <div className="absolute top-3 right-3 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-sm shadow-md">
                     <span className="font-serif text-lg text-deep-brown font-medium">
-                      ${tour.price}
+                      ${tour.price}<span className="text-sm font-sans">/person</span>
                     </span>
                   </div>
                 </div>

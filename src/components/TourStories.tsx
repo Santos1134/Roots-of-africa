@@ -99,7 +99,7 @@ export function TourStories() {
 
                 </div>
                 <div className="absolute bottom-3 right-3 md:bottom-6 md:right-6 bg-white/90 backdrop-blur-md px-3 py-1.5 md:px-5 md:py-2 font-serif text-base md:text-lg text-deep-brown shadow-lg rounded-sm">
-                  {story.price}
+                  {story.price}<span className="text-sm font-sans">/person</span>
                 </div>
               </div>
 
