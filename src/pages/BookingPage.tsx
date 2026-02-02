@@ -182,7 +182,7 @@ I would like to book this tour. Please confirm availability.`;
                               {tour.location}
                             </p>
                             <p className="font-sans text-terracotta text-sm font-medium">
-                              ${tour.price}
+                              ${tour.price}/person
                             </p>
                           </div>
                           {selectedTour === tour.id &&
@@ -395,7 +395,11 @@ I would like to book this tour. Please confirm availability.`;
                       Booking Summary
                     </h4>
                     <div className="flex justify-between items-center mb-2 text-sm">
-                      <span className="text-warm-gray">Total Guests</span>
+                      <span className="text-warm-gray">Price per person</span>
+                      <span className="text-deep-brown font-medium">${selectedTourData?.price || 0}</span>
+                    </div>
+                    <div className="flex justify-between items-center mb-2 text-sm">
+                      <span className="text-warm-gray">Guests</span>
                       <span className="text-deep-brown font-medium">{totalGuests}</span>
                     </div>
 
