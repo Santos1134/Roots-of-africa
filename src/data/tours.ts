@@ -1,5 +1,5 @@
 import kpataweeImage from '../Assets/kpatawee.jpg';
-import image4 from '../Assets/4.jpeg';
+import gbaotaImage from '../Assets/gbaota.jpg';
 import lakepisoImage from '../Assets/lakepiso.jpg';
 import bomiImage from '../Assets/bomi.jpg';
 import image11 from '../Assets/11.jpeg';
@@ -196,7 +196,7 @@ export const tours: Tour[] = [
     location: 'Bong County',
     price: 220,
     shortDescription: 'Authentic village life and traditions.',
-    image: image4,
+    image: gbaotaImage,
     duration: 'Full Day',
     highlights: [
       'Deep cultural exchange with local community',
