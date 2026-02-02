@@ -118,7 +118,7 @@ export function AboutPage() {
                 />
                 <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:-right-4 bg-terracotta text-white px-4 md:px-6 py-2 md:py-3 rounded-sm text-center md:text-left">
                   <p className="font-serif text-base md:text-lg">Windell S. King</p>
-                  <p className="font-sans text-xs uppercase tracking-wider opacity-80">Founder & Lead Guide</p>
+                  <p className="font-sans text-xs uppercase tracking-wider opacity-80">Founder</p>
                 </div>
               </motion.div>
 

@@ -16,24 +16,98 @@ import image13 from '../Assets/13.jpeg';
 import image14 from '../Assets/14.jpeg';
 import image15 from '../Assets/15.jpeg';
 import image16 from '../Assets/16.jpg';
+import image17 from '../Assets/17.jpg';
+import image18 from '../Assets/18.jpg';
+import image19 from '../Assets/19.jpg';
+import image20 from '../Assets/20.jpg';
+import image21 from '../Assets/21.jpg';
+import image22 from '../Assets/22.jpg';
+import image23 from '../Assets/23.jpg';
+import image24 from '../Assets/24.jpg';
+import image25 from '../Assets/IMG-20260202-WA0037.jpg';
+import image26 from '../Assets/IMG-20260202-WA0041.jpg';
+import image27 from '../Assets/IMG-20260202-WA0047.jpg';
+import image28 from '../Assets/IMG-20260202-WA0052.jpg';
+import image29 from '../Assets/IMG-20260202-WA0055.jpg';
+import image30 from '../Assets/IMG-20260202-WA0057.jpg';
+import image31 from '../Assets/IMG-20260202-WA0058.jpg';
+import image32 from '../Assets/IMG-20260202-WA0059.jpg';
+import image33 from '../Assets/IMG-20260202-WA0061.jpg';
+import image34 from '../Assets/IMG-20260202-WA0067.jpg';
+import image35 from '../Assets/IMG-20260202-WA0072.jpg';
+import image36 from '../Assets/IMG-20260202-WA0076.jpg';
+import image37 from '../Assets/IMG-20260202-WA0079.jpg';
+import image38 from '../Assets/IMG-20260202-WA0082.jpg';
+import image39 from '../Assets/IMG-20260202-WA0084.jpg';
+import image40 from '../Assets/IMG-20260202-WA0086.jpg';
+import image41 from '../Assets/IMG-20260202-WA0089.jpg';
+import image42 from '../Assets/IMG-20260202-WA0091.jpg';
+import image43 from '../Assets/IMG-20260202-WA0092.jpg';
+import image44 from '../Assets/IMG-20260202-WA0093.jpg';
+import image45 from '../Assets/IMG-20260202-WA0094.jpg';
+import image46 from '../Assets/IMG-20260202-WA0095.jpg';
+import image47 from '../Assets/IMG-20260202-WA0096.jpg';
+import image48 from '../Assets/IMG-20260202-WA0097.jpg';
+import image49 from '../Assets/IMG-20260202-WA0098.jpg';
+import image50 from '../Assets/IMG-20260202-WA0099.jpg';
+import image51 from '../Assets/IMG-20260202-WA0100.jpg';
+import image52 from '../Assets/IMG-20260202-WA0101.jpg';
+import image53 from '../Assets/IMG-20260202-WA0102.jpg';
 
 const photos = [
-  { src: image1, alt: 'Liberian Heritage', span: 'md:row-span-2' },
-  { src: image2, alt: 'Cultural Traditions', span: '' },
+  { src: image22, alt: 'Adventure Awaits', span: 'md:row-span-2' },
+  { src: image23, alt: 'Cultural Journey', span: '' },
+  { src: image24, alt: 'Explore Liberia', span: '' },
+  { src: image1, alt: 'Liberian Heritage', span: '' },
+  { src: image2, alt: 'Cultural Traditions', span: 'md:row-span-2' },
   { src: image3, alt: 'Local Craftsmanship', span: '' },
   { src: image4, alt: 'Village Welcome', span: '' },
-  { src: image5, alt: 'Nature Walk', span: 'md:row-span-2' },
-  { src: image6, alt: 'Sunset Views', span: '' },
+  { src: image5, alt: 'Nature Walk', span: '' },
+  { src: image6, alt: 'Sunset Views', span: 'md:row-span-2' },
   { src: image7, alt: 'Scenic Landscape', span: '' },
   { src: image8, alt: 'River Journey', span: '' },
-  { src: image9, alt: 'Forest Trail', span: 'md:row-span-2' },
-  { src: image10, alt: 'Liberian Coastline', span: '' },
+  { src: image9, alt: 'Forest Trail', span: '' },
+  { src: image10, alt: 'Liberian Coastline', span: 'md:row-span-2' },
   { src: image11, alt: 'Mountain Vista', span: '' },
   { src: image12, alt: 'Local Village Life', span: '' },
-  { src: image13, alt: 'Cultural Dance', span: 'md:row-span-2' },
-  { src: image14, alt: 'Traditional Attire', span: '' },
+  { src: image13, alt: 'Cultural Dance', span: '' },
+  { src: image14, alt: 'Traditional Attire', span: 'md:row-span-2' },
   { src: image15, alt: 'Community Gathering', span: '' },
   { src: image16, alt: 'Festive Celebration', span: '' },
+  { src: image17, alt: 'Scenic Beauty', span: '' },
+  { src: image18, alt: 'Local Experience', span: 'md:row-span-2' },
+  { src: image19, alt: 'Natural Wonders', span: '' },
+  { src: image20, alt: 'Village Life', span: '' },
+  { src: image21, alt: 'Coastal Views', span: '' },
+  { src: image25, alt: 'West African Adventure', span: 'md:row-span-2' },
+  { src: image26, alt: 'Cultural Experience', span: '' },
+  { src: image27, alt: 'Local Encounter', span: '' },
+  { src: image28, alt: 'Journey Through Liberia', span: '' },
+  { src: image29, alt: 'Authentic Moments', span: 'md:row-span-2' },
+  { src: image30, alt: 'Travel Stories', span: '' },
+  { src: image31, alt: 'Cultural Discovery', span: '' },
+  { src: image32, alt: 'Heritage Tour', span: '' },
+  { src: image33, alt: 'Exploration', span: 'md:row-span-2' },
+  { src: image34, alt: 'Adventure Time', span: '' },
+  { src: image35, alt: 'Local Culture', span: '' },
+  { src: image36, alt: 'Scenic Tour', span: '' },
+  { src: image37, alt: 'West Africa', span: 'md:row-span-2' },
+  { src: image38, alt: 'Cultural Immersion', span: '' },
+  { src: image39, alt: 'Tour Highlights', span: '' },
+  { src: image40, alt: 'Local Life', span: '' },
+  { src: image41, alt: 'Guided Tour', span: 'md:row-span-2' },
+  { src: image42, alt: 'Travel Memories', span: '' },
+  { src: image43, alt: 'Cultural Heritage', span: '' },
+  { src: image44, alt: 'Liberian Landscapes', span: '' },
+  { src: image45, alt: 'Tour Experience', span: 'md:row-span-2' },
+  { src: image46, alt: 'Local Traditions', span: '' },
+  { src: image47, alt: 'Adventure Awaits', span: '' },
+  { src: image48, alt: 'Cultural Journey', span: '' },
+  { src: image49, alt: 'Discover Liberia', span: 'md:row-span-2' },
+  { src: image50, alt: 'Travel Adventure', span: '' },
+  { src: image51, alt: 'West African Culture', span: '' },
+  { src: image52, alt: 'Tour Moments', span: '' },
+  { src: image53, alt: 'Cultural Exploration', span: '' },
 ];
 
 export function GalleryPage() {
