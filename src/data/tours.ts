@@ -1,6 +1,6 @@
 import kpataweeImage from '../Assets/kpatawee.jpg';
 import image4 from '../Assets/4.jpeg';
-import image6 from '../Assets/6.jpeg';
+import lakepisoImage from '../Assets/lakepiso.jpg';
 import bomiImage from '../Assets/bomi.jpg';
 import image11 from '../Assets/11.jpeg';
 import libassaImage from '../Assets/libassa.jpg';
@@ -90,7 +90,7 @@ export const tours: Tour[] = [
     location: 'Grand Cape Mount County',
     price: 790,
     shortDescription: 'Coastal beauty and cultural immersion.',
-    image: image6,
+    image: lakepisoImage,
     duration: 'Full Day',
     highlights: [
       'See the stunning Lake Piso',
