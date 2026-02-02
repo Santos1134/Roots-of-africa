@@ -29,7 +29,7 @@ export function SmallIntro() {
                         <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-deep-brown leading-tight mb-4 md:mb-6">
               Welcome to{' '}
               <span className="italic text-warm-gray">West Africa</span>,
-              where every journey tells a story.
+              the cradle of deep tradition, living culture, and powerful human stories.
             </h2>
             <div className="w-12 md:w-20 h-1 bg-terracotta mb-4 md:mb-6" />
 

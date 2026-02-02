@@ -94,7 +94,7 @@ export function Hero() {
           }}
           className="font-display text-lg sm:text-xl md:text-2xl text-white/90 italic max-w-2xl mb-8 md:mb-10">
 
-          Discover West Africa's hidden treasures, from cascading waterfalls
+          Discover hidden treasures of West Africa, from cascading waterfalls
           to vibrant cities and pristine beaches.
         </motion.p>
 
