@@ -38,8 +38,10 @@ export function SmallIntro() {
                 src={culturalImage}
                 alt="Liberian cultural experience"
                 className="object-cover w-full h-full" />
-
-                          </div>
+              <div className="absolute bottom-2 right-2 bg-black/60 text-white px-2 py-1 rounded-sm text-xs font-sans">
+                @manuelmotions
+              </div>
+            </div>
           </div>
 
           <div className="md:col-span-7 md:pl-6 space-y-4 md:space-y-5 text-sm sm:text-base md:text-lg text-warm-gray leading-relaxed font-sans font-light">
