@@ -1,4 +1,5 @@
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { SmallIntro } from './components/Intro';
@@ -12,6 +13,17 @@ import { AboutPage } from './pages/AboutPage';
 import { TourDetailPage } from './pages/TourDetailPage';
 import { GalleryPage } from './pages/GalleryPage';
 import { FloatingWhatsApp } from './components/FloatingWhatsApp';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function HomePage() {
   return (
     <div className="bg-cream min-h-screen w-full overflow-x-hidden selection:bg-terracotta selection:text-white">
@@ -30,6 +42,7 @@ function HomePage() {
 export function App() {
   return (
     <HashRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/book" element={<BookingPage />} />

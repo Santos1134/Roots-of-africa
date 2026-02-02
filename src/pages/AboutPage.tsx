@@ -161,7 +161,7 @@ export function AboutPage() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="font-serif text-2xl md:text-3xl text-deep-brown mb-4">
-              Discover Liberia beyond the surface.
+              Discover Liberia and West Africa beyond the surface.
             </h2>
             <p className="font-display text-xl md:text-2xl text-terracotta italic mb-8">
               Travel with purpose. Travel with Roots of Africa Tours.

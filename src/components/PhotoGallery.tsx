@@ -43,7 +43,7 @@ export function Photos() {
           Visual Essays
         </h2>
         <p className="font-sans text-warm-gray text-sm">
-          Glimpses of Liberia's vibrant culture and landscapes.
+          Glimpses of Liberia and West Africa's vibrant culture and landscapes.
         </p>
       </div>
 

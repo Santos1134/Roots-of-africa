@@ -29,7 +29,7 @@ export function Booking() {
               Start Your Journey
             </span>
             <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl mb-6 md:mb-8 leading-tight">
-              Ready to discover Liberia?
+              Ready to discover Liberia and West Africa?
             </h2>
 
             <div className="flex flex-col sm:flex-row gap-3">

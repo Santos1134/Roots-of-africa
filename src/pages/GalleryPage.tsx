@@ -68,7 +68,7 @@ export function GalleryPage() {
             Our Gallery
           </h1>
           <p className="font-sans text-warm-gray text-sm mt-2">
-            Glimpses of Liberia's vibrant culture and landscapes.
+            Glimpses of Liberia and West Africa's vibrant culture and landscapes.
           </p>
         </div>
 
