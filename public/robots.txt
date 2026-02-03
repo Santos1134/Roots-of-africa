@@ -1,0 +1,27 @@
+# Robots.txt for Roots of Africa Tours
+# https://rootsofafricatours.com
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://rootsofafricatours.com/sitemap.xml
+
+# Crawl-delay (optional, prevents overwhelming the server)
+Crawl-delay: 1
+
+# Major Search Engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Disallow AI scrapers if needed
+# User-agent: GPTBot
+# Disallow: /

@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { SmallIntro } from './components/Intro';
@@ -52,6 +53,7 @@ export function App() {
         <Route path="/tour/:tourId" element={<TourDetailPage />} />
       </Routes>
       <FloatingWhatsApp />
+      <Analytics />
     </HashRouter>);
 
 }
