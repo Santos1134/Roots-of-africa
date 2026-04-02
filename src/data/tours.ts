@@ -1,6 +1,6 @@
 import kpataweeImage from '../Assets/kpatawee.jpg';
 import gbaotaImage from '../Assets/gbaota.jpg';
-import lakepisoImage from '../Assets/lakepiso.jpg';
+import lakepisoImage from '../Assets/piso.jpeg';
 import bomiImage from '../Assets/bomi.jpg';
 import monroviaImage from '../Assets/monrovia.jpg';
 import libassaImage from '../Assets/libassa.jpg';
@@ -83,49 +83,6 @@ export const tours: Tour[] = [
       'Private transportation',
       'Entrance fees',
       'Cultural interpretation'
-    ]
-  },
-  {
-    id: 'lake-piso',
-    name: 'Lake Piso & Grand Cape Mount',
-    location: 'Grand Cape Mount County',
-    price: 790,
-    shortDescription: 'Coastal beauty and cultural immersion.',
-    image: lakepisoImage,
-    duration: 'Full Day',
-    highlights: [
-      'See the stunning Lake Piso',
-      'Visit Fanti Town for local fishing experience',
-      'Try local food at Nana\'s Lodge',
-      'Explore a traditional local town'
-    ],
-    itinerary: [
-      {
-        time: '7:00 AM',
-        title: 'Departure from Hotel (Monrovia)',
-        description: 'Your guide will pick you up from your hotel and begin the scenic journey to Grand Cape Mount County.'
-      },
-      {
-        time: 'Morning',
-        title: 'Lake Piso Visit',
-        description: 'Experience the serenity of Lake Piso, where the lake meets the ocean. Take in the beautiful coastal scenery and learn about the area\'s significance.'
-      },
-      {
-        time: 'Midday',
-        title: 'Fanti Town Fishing Experience',
-        description: 'Visit Fanti Town to see local fishing firsthand. Watch fishermen at work and learn about traditional fishing methods.'
-      },
-      {
-        time: 'Afternoon',
-        title: 'Nana\'s Lodge & Local Town',
-        description: 'Enjoy authentic local food at Nana\'s Lodge and visit a traditional local town to experience the culture and daily life of the community.'
-      }
-    ],
-    included: [
-      'Hotel pickup and drop-off',
-      'Professional local guide',
-      'Private transportation',
-      'Entrance fees'
     ]
   },
   {
@@ -232,6 +189,43 @@ export const tours: Tour[] = [
     ]
   },
   {
+    id: 'libassa',
+    name: 'Libassa Marine Sanctuary',
+    location: 'Margibi County',
+    price: 300,
+    shortDescription: 'Beach, pool, and marine sanctuary experience.',
+    image: libassaImage,
+    duration: 'Full Day',
+    highlights: [
+      'Relax at the beach',
+      'Swim in the pool',
+      'Explore the marine sanctuary',
+      'Enjoy coastal dining'
+    ],
+    itinerary: [
+      {
+        time: 'Morning',
+        title: 'Departure to Libassa',
+        description: 'Journey from Monrovia to Libassa Marine Sanctuary in Margibi County.'
+      },
+      {
+        time: 'Day',
+        title: 'Beach and Pool',
+        description: 'Spend the day relaxing at the beach, swimming in the pool, and enjoying the beautiful coastal setting.'
+      },
+      {
+        time: 'Afternoon',
+        title: 'Marine Sanctuary',
+        description: 'Explore the marine sanctuary and learn about local marine life and conservation efforts.'
+      }
+    ],
+    included: [
+      'Hotel pickup and drop-off',
+      'Professional local guide',
+      'Private transportation'
+    ]
+  },
+  {
     id: 'bomi-lake',
     name: 'Bomi Lake (Blue Lake) Tour',
     location: 'Bomi County',
@@ -269,40 +263,51 @@ export const tours: Tour[] = [
     ]
   },
   {
-    id: 'libassa',
-    name: 'Libassa Marine Sanctuary',
-    location: 'Margibi County',
-    price: 300,
-    shortDescription: 'Beach, pool, and marine sanctuary experience.',
-    image: libassaImage,
+    id: 'robertsport',
+    name: 'Robertsport, Grand Cape Mount Tour',
+    location: 'Grand Cape Mount County',
+    price: 375,
+    shortDescription: 'Beach, shipwreck, lake, and coastal culture in one unforgettable day.',
+    image: lakepisoImage,
     duration: 'Full Day',
     highlights: [
-      'Relax at the beach',
-      'Swim in the pool',
-      'Explore the marine sanctuary',
-      'Enjoy coastal dining'
+      'See the stunning Robertsport beach and Lake Piso',
+      'Visit Fanti Town and hike to the MV Tamaya (famous Robertsport shipwreck) for a local fishing experience',
+      'Try local food at Nana\'s Lodge',
+      'Explore a traditional local town'
     ],
     itinerary: [
       {
-        time: 'Morning',
-        title: 'Departure to Libassa',
-        description: 'Journey from Monrovia to Libassa Marine Sanctuary in Margibi County.'
+        time: '7:00 AM',
+        title: 'Departure from Hotel (Monrovia)',
+        description: 'Your guide will pick you up from your hotel and begin the scenic journey to Grand Cape Mount County.'
       },
       {
-        time: 'Day',
-        title: 'Beach and Pool',
-        description: 'Spend the day relaxing at the beach, swimming in the pool, and enjoying the beautiful coastal setting.'
+        time: 'Morning',
+        title: 'Lake Piso Visit',
+        description: 'Experience the serenity of Lake Piso, where the lake meets the ocean. Take in the beautiful coastal scenery and learn about the area\'s significance.'
+      },
+      {
+        time: 'Midday',
+        title: 'Fanti Town Fishing Experience',
+        description: 'Visit Fanti Town to see local fishing firsthand. Watch fishermen at work and learn about traditional fishing methods.'
       },
       {
         time: 'Afternoon',
-        title: 'Marine Sanctuary',
-        description: 'Explore the marine sanctuary and learn about local marine life and conservation efforts.'
+        title: 'Nana\'s Lodge & Local Town',
+        description: 'Enjoy authentic local food at Nana\'s Lodge and visit a traditional local town to experience the culture and daily life of the community.'
+      },
+      {
+        time: 'Evening',
+        title: 'Hike to the Shipwreck — MV Tamaya',
+        description: 'Hike along the Robertsport coastline to the famous MV Tamaya shipwreck, one of Robertsport\'s most iconic landmarks. Take in the stunning beach scenery and learn the story behind this legendary wreck.'
       }
     ],
     included: [
       'Hotel pickup and drop-off',
       'Professional local guide',
-      'Private transportation'
+      'Private transportation',
+      'Entrance fees'
     ]
   },
   {
