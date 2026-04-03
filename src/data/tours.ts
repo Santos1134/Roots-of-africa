@@ -89,7 +89,7 @@ export const tours: Tour[] = [
     id: 'monrovia',
     name: 'Monrovia City Tour',
     location: 'Monrovia',
-    price: 80,
+    price: 100,
     shortDescription: 'History, culture, and urban exploration.',
     image: monroviaImage,
     duration: '3-4 hours',
